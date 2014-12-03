@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- color definition -->
+	<color name="black">#000000</color> 
+	<color name="transparent_black">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="ivory">#fafafa</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="dimgray">#696969</color>
+    <color name="darkerdimgray">#404040</color>
+    <color name="opacity_dimmergray">#DBDBDBFF</color>
+    <color name="lockgray">#4A5766</color>
+    <color name="lawngreen">#7CFC00</color>
+    <color name="transparent_lawngreen">#877CFC00</color>
+    <color name="limegreen">#32CD32</color>
+    <color name="yellowgreen">#9ACD32</color>
+    <color name="darkgreen">#006400</color>
+    <color name="lightseagreen">#20B2AA</color>
+    <color name="steelblue">#4682B4</color>
+    <color name="powderblue">#B0E0E6</color>
+    <color name="skyblue">#87CEEB</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="deepskyblue">#00BFFF</color>
+    <color name="royalblue">#4169E1</color>
+    <color name="mediumblue">#0000CD</color>
+    <color name="midnightblue">#191970</color>
+    <color name="mediumslateblue">#7B68EE</color>
+    <color name="slateblue">#6633CC</color>
+    <color name="crimson">#DC143C</color>
+    <color name="firebrick">#B22222</color>
+    <color name="darkred">#8B0000</color>
+    <color name="indianred">#CD5C5C</color>
+    <color name="coral">#FF7F50</color>
+    <color name="tomato">#FF6347</color>
+    <color name="lightsalmon">#FFA07A</color>
+    <color name="orangered">#FF4500</color>
+    <color name="darkorange">#FF8C00</color>
+    <color name="lightgoldenrodyellow">#FAFAD2</color>
+    
+    <!-- application used color definition -->
+    <color name="activity_roomlist_background">@color/lightgoldenrodyellow</color>
+    <color name="activity_main_background">@color/lightgoldenrodyellow</color>
+    <color name="activity_addr_background">#E6FFE6</color>
+    <color name="activity_sett_background">#FFEEF0</color>
+    <color name="splash_title_text">@color/white</color>
+    <color name="activity_title_text">@color/dimgray</color>
+    <color name="dialog_title_text">@color/limegreen</color>
+    
+    <color name="menu_area_background">@color/silver</color>
+    
+    <color name="btn_strict_text">@color/dimgray</color>
+    <color name="btn_strict_background_normal">@color/ivory</color>
+    <color name="btn_strict_background_pressed">@color/yellowgreen</color>
+    <color name="btn_strict_background_disabled">@color/dimgray</color>
+    
+    <color name="btn_strict_trans_background_normal">@color/transparent_black</color>
+    <color name="btn_strict_trans_background_pressed">@color/yellowgreen</color>
+    <color name="btn_strict_trans_background_disabled">@color/dimgray</color>
+    
+    <color name="btn_text_normal">@color/white</color>
+    <color name="btn_text_pressed">@color/yellowgreen</color>
+    <color name="btn_text_disabled">@color/silver</color>
+    <color name="btn_border_normal">@color/lawngreen</color>
+    <color name="btn_border_pressed">@color/yellowgreen</color>
+    <color name="btn_border_disabled">@color/darkgreen</color>
+    <color name="btn_background_normal">@color/steelblue</color>
+    <color name="btn_background_pressed">@color/slateblue</color>
+    <color name="btn_background_disabled">@color/dimgray</color>
+    
+    <color name="list_gamer_background_normal">@color/transparent_black</color>
+    <color name="list_gamer_background_pressed">@color/indianred</color>
+    <color name="list_gamer_background_disabled">@color/transparent_black</color>
+    
+    <color name="list_addr_background_normal">@color/transparent_black</color>
+    <color name="list_addr_background_pressed">@color/indianred</color>
+    <color name="list_addr_background_disabled">@color/transparent_black</color>
+    
+    <color name="item_upper_text">@color/dimgray</color>
+    <color name="item_lower_text">@color/dimgray</color>
+    <color name="plain_text_normal">@color/white</color>
+    <color name="plain_text_small">@color/dimgray</color>
+    <color name="item_version_text">@color/orangered</color>
+    <color name="setting_desc_text_small">@color/white</color>
+</resources>

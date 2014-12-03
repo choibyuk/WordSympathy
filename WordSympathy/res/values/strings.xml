@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">말뭉치 공감</string>
+    
+    <string name="title_authorization">사용자 인증</string>
+    <string name="btn_auth_google">구글</string>
+    <string name="btn_auth_facebook">페이스북</string>
+    <string name="btn_auth_twitter">트위터</string>
+    
+    <string name="msg_auth_failed">인증에 실패하였습니다.</string>
+    
+    
+    
+    
+    <string name="title_test_words_present">단어 제시 페이지</string>
+
+</resources>

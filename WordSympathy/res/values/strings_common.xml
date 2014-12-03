@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Google OAuth 2.0 Config -->
+    <string name="google_oauth_client_id">549863699887-c4q6qq5hninf3bvdh5hp62j9169qs9q6.apps.googleusercontent.com</string>
+    <string name="google_oauth_client_secret">Rw0XDJ1tk8IQCp2_rXr8rq-W</string>
+    <string name="google_oauth_scope_1">https://www.googleapis.com/auth/userinfo.email</string>
+    <string name="google_oauth_scope_2">https://www.googleapis.com/auth/userinfo.profile</string>
+    <string name="google_oauth_reditect_uri">http://localhost</string>
+    
+    <!-- Facebook Config -->
+    <string name="facebook_app_id">610674822301114</string>
+    <string name="facebook_app_secret">7253892898d44d1e07f6876a4d297e07</string>
+    
+    <!-- Twitter Config -->
+    <!-- Access Level 상향시켜야함 -->
+    <string name="twitter_api_key">9tzOJElyqlcWhnO9FtNa9k8NR</string>
+    <string name="twitter_api_secret">zVxf4GpufMAlsBZm3oJna0iYTZUxigX8GO2qarO7YLw5knBDHb</string>
+    
+    <!-- AdMob -->
+    <string name="admobid">a1535e83f0da390</string>
+    
+    <!-- common image view description -->
+    <string name="image_desc_dialog_close_button">Dialog Close Button</string>
+    <string name="txt_simple_desc">Simple Description</string>
+    <string name="txt_button_desc">Button Description</string>
+    
+</resources>

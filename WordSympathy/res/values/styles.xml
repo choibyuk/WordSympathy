@@ -1,0 +1,104 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <!-- Dialog theme -->
+    <style name="Theme.Dialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    
+    <!-- Task Doing Dialog -->
+    <style name="Task_Doing_Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    
+    <style name="SplashTitleTextBold">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/splash_title_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="SplashTitleTextNormal">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/splash_title_text</item>
+    </style>
+    <style name="SplashTitleTextSmall">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/splash_title_text</item>
+    </style>
+    <style name="ActivityTitleText">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/activity_title_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="DialogTitleText">
+        <item name="android:textSize">16.5sp</item>
+        <item name="android:textColor">@color/dialog_title_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ButtonStrictText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/btn_strict_text</item>
+    </style>
+    <style name="ButtonNoramlText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/global_btn_text_color</item>
+    </style>
+    <style name="ItemUpperText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/item_upper_text</item>
+    </style>
+    <style name="ItemStatusText">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ItemMessageText">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/darkerdimgray</item>
+    </style>
+    <style name="ItemNicknameText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/darkerdimgray</item>
+    </style>
+    <style name="ItemLowerText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/item_lower_text</item>
+    </style>
+    <style name="PlainNoramlText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/plain_text_normal</item>
+    </style>
+    <style name="PlainSmallText">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/plain_text_small</item>
+    </style>
+    <style name="ItemVersionText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/item_version_text</item>
+    </style>
+    <style name="SettingDescSmallText">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/setting_desc_text_small</item>
+    </style>
+</resources>

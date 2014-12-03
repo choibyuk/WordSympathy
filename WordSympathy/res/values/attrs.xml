@@ -1,0 +1,30 @@
+<resources>
+	
+	<declare-styleable name="PresenceType">
+	    <attr name="state_presence_type_available" format="boolean" />
+	    <attr name="state_presence_type_unavailable" format="boolean" />
+	    <attr name="state_presence_type_null" format="boolean" />
+	</declare-styleable>
+	
+	<declare-styleable name="PresenceMode">
+	    <attr name="state_presence_mode_available" format="boolean" />
+	    <attr name="state_presence_mode_chat" format="boolean" />
+	    <attr name="state_presence_mode_away" format="boolean" />
+	    <attr name="state_presence_mode_xa" format="boolean" />
+	    <attr name="state_presence_mode_dnd" format="boolean" />
+	    <attr name="state_presence_mode_null" format="boolean" />
+	</declare-styleable>
+	
+	<declare-styleable name="LifeType">
+	    <attr name="state_life_type_alive" format="boolean" />
+	    <attr name="state_life_type_die" format="boolean" />
+	    <attr name="state_life_type_null" format="boolean" />
+	</declare-styleable>
+	
+	<declare-styleable name="JoinType">
+	    <attr name="state_join_type_host" format="boolean" />
+	    <attr name="state_join_type_member" format="boolean" />
+	    <attr name="state_join_type_null" format="boolean" />
+	</declare-styleable>
+	
+</resources>
